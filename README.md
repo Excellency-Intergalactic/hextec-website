@@ -1,1 +1,1 @@
-# hextech-website
+# hextec-website
