@@ -1,7 +1,15 @@
+@import url(./font.css);
+
 :root {
     --bg-color: #202030; 
 }
 
 body {
     background-color: var(--bg-color);
+    color: white;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
 }

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Azonix", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Azonix.otf"),
+    url("./assets/fonts/Azonix.ttf"),
+    url("./assets/fonts/Azonix.woff"),
+    url("./assets/fonts/Azonix.woff2"),;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Thin.otf"),
+    url("./assets/fonts/Montserrat-Thin.ttf"),
+    url("./assets/fonts/Montserrat-Thin.woff"),
+    url("./assets/fonts/Montserrat-Thin.woff2"),;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Light.otf"),
+    url("./assets/fonts/Montserrat-Light.ttf"),
+    url("./assets/fonts/Montserrat-Light.woff"),
+    url("./assets/fonts/Montserrat-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Regular.otf"),
+    url("./assets/fonts/Montserrat-Regular.ttf"),
+    url("./assets/fonts/Montserrat-Regular.woff"),
+    url("./assets/fonts/Montserrat-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Medium.otf"),
+    url("./assets/fonts/Montserrat-Medium.ttf"),
+    url("./assets/fonts/Montserrat-Medium.woff"),
+    url("./assets/fonts/Montserrat-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Bold.otf"),
+    url("./assets/fonts/Montserrat-Bold.ttf"),
+    url("./assets/fonts/Montserrat-Bold.woff"),
+    url("./assets/fonts/Montserrat-Bold.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    src: url("./assets/fonts/Montserrat-Black.otf"),
+    url("./assets/fonts/Montserrat-Black.ttf"),
+    url("./assets/fonts/Montserrat-Black.woff"),
+    url("./assets/fonts/Montserrat-Black.woff2");
+    font-weight: 900;
+}
+
+.azonix {
+    font-family: "Azonix";
+}
+
+.montserrat-light {
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.montserrat-thin {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.montserrat-medium {
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.montserrat-black {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
