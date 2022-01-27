@@ -1,1 +1,3 @@
-# hextec-website
+# Website for HEXTEC
+
+
