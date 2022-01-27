@@ -1,12 +1,19 @@
 @import url(./font.css);
+@import url(./navbar.css);
 
 :root {
-    --bg-color: #202030; 
+    --bg-color: #202030;
+    --main-color: #5602ff;
+    --main-color-dark: #4400cc;
+    --main-color-light: hsl(255, 100%, 60%);
+    --white: #eeeeff;
+    --gray: #9FB4C7;
 }
 
 body {
     background-color: var(--bg-color);
-    color: white;
+    color: var(--white);
+    margin: 0;
 }
 
 .container {
