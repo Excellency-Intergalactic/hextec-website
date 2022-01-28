@@ -3,9 +3,12 @@ a {
 }
 
 .nav-bg {
+    object-fit: contain;
+    z-index: 2;
+    position: fixed;
     box-sizing: border-box;
     width: 100%;
-    height: 40px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,7 +62,7 @@ a {
     overflow: visible;
     font-weight: 500;
     font-style: normal;
-    font-family: "Montserrat";
+    font-family: "Montserrat", system-ui, sans-serif;
     color: var(--gray);
     font-size: 15px;
     letter-spacing: 0px;
@@ -68,18 +71,16 @@ a {
     transition-duration: 200ms;
 }
 
-.nav-links-el:hover:not(.nav-links-el-active) {
-    background-color: var(--main-color-light);
+.nav-links-el:hover {
     color: var(--white);
 }
 
 .nav-links-el-active {
-    background-color: var(--bg-color);
     color: var(--white);
 }
 
 .nav-links-el-active:hover {
-    color: var(--gray);
+    color: var(--white);
 }
 
 .nav-icons-el {
@@ -96,6 +97,6 @@ a {
 .nav-icons-logo {
     flex-shrink: 0;
     width: auto;
-    height: 25px;
+    height: 35px;
     padding-right: 4px;
 }

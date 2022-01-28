@@ -1,95 +1,137 @@
 @font-face {
-    font-family: "Azonix", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Azonix.otf"),
-    url("./assets/fonts/Azonix.ttf"),
-    url("./assets/fonts/Azonix.woff"),
-    url("./assets/fonts/Azonix.woff2"),;
+  font-family: "Azonix";
+  src: url("/assets/fonts/Azonix.otf") format("otf"),
+    url("./assets/fonts/Azonix.ttf") format("ttf"),
+    url("./assets/fonts/Azonix.woff") format("woff"),
+    url("./assets/fonts/Azonix.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Thin.otf"),
-    url("./assets/fonts/Montserrat-Thin.ttf"),
-    url("./assets/fonts/Montserrat-Thin.woff"),
-    url("./assets/fonts/Montserrat-Thin.woff2"),;
-    font-weight: 100;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Thin.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Thin.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Thin.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Thin.woff2") format("woff2");
+  font-weight: 100;
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Light.otf"),
-    url("./assets/fonts/Montserrat-Light.ttf"),
-    url("./assets/fonts/Montserrat-Light.woff"),
-    url("./assets/fonts/Montserrat-Light.woff2");
-    font-weight: 300;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Light.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Light.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Light.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Regular.otf"),
-    url("./assets/fonts/Montserrat-Regular.ttf"),
-    url("./assets/fonts/Montserrat-Regular.woff"),
-    url("./assets/fonts/Montserrat-Regular.woff2");
-    font-weight: 400;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Regular.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Medium.otf"),
-    url("./assets/fonts/Montserrat-Medium.ttf"),
-    url("./assets/fonts/Montserrat-Medium.woff"),
-    url("./assets/fonts/Montserrat-Medium.woff2");
-    font-weight: 500;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Medium.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Medium.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Medium.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Bold.otf"),
-    url("./assets/fonts/Montserrat-Bold.ttf"),
-    url("./assets/fonts/Montserrat-Bold.woff"),
-    url("./assets/fonts/Montserrat-Bold.woff2");
-    font-weight: 700;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Bold.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Bold.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Bold.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    src: url("./assets/fonts/Montserrat-Black.otf"),
-    url("./assets/fonts/Montserrat-Black.ttf"),
-    url("./assets/fonts/Montserrat-Black.woff"),
-    url("./assets/fonts/Montserrat-Black.woff2");
-    font-weight: 900;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Black.otf") format("otf"),
+    url("./assets/fonts/Montserrat-Black.ttf") format("ttf"),
+    url("./assets/fonts/Montserrat-Black.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Black.woff2") format("woff2");
+  font-weight: 900;
 }
 
 .azonix {
-    font-family: "Azonix";
+  font-family: "Azonix", sans-serif;
 }
 
 .montserrat-light {
-    font-family: "Montserrat";
-    font-weight: 100;
+  font-family: "Montserrat";
+  font-weight: 100;
 }
 
 .montserrat-thin {
-    font-family: "Montserrat";
-    font-weight: 300;
+  font-family: "Montserrat";
+  font-weight: 300;
 }
 
 .montserrat-regular {
-    font-family: "Montserrat";
-    font-weight: 400;
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 
 .montserrat-medium {
-    font-family: "Montserrat";
-    font-weight: 500;
+  font-family: "Montserrat";
+  font-weight: 500;
 }
 
 .montserrat-bold {
-    font-family: "Montserrat";
-    font-weight: 700;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 .montserrat-black {
-    font-family: "Montserrat";
-    font-weight: 900;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h6 {
+  font-family: "Azonix", sans-serif;
+  color: #4400cc;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  line-height: 110%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+._404-subtext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+._404-heading {
+  font-size: 76px;
+  line-height: 100%;
+}
+
+._404-text {
+  margin-bottom: 20px;
+  font-size: 160px;
+  line-height: 100%;
 }
