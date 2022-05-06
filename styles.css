@@ -68,3 +68,6 @@ a {
   text-align: center;
 }
 
+.homeBackground {
+  background-image: image(/assets/HomeImage.png);
+}
