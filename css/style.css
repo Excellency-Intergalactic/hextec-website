@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:400|Montserrat:400, 700");
+
+:root {
+    --black: rgba(26, 26, 26, 1);
+    --grey: rgba(153, 153, 153, 1);
+    --light: rgba(217, 217, 217, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-s: 0.5rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.5rem;
+    --font-family-montserrat: "Montserrat";
+    --font-family-bebas-neue: "Bebas Neue";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-montserrat);
+
+}
+
+body {
+    background-color: var(--black);
+}
+
+.home {
+    background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 2.5rem;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: m;
+}
+
+nav ul li a:hover {
+    color: var(--white);
+}
+
+h1 {
+    font-family: var(--font-family-bebas-neue);
+    font-size: 4rem;
+    line-height: 100%;
+    color: var(--white);
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+.hero {
+    margin-top: 4rem;
+}
+
+p {
+    color: var(--white);
+    line-height: 140%;
+    margin-bottom: 3rem;
+}
+
+form input {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.copyright {
+    position: relative;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+.home .copyright {
+    position: absolute;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+.copyright p {
+    font-size: var(--font-size-s);
+}
+
+.row {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.col-2 {
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .projecta {
+    width: 100%;
+}
