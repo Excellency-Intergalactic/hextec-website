@@ -121,6 +121,7 @@ form input {
 
 .copyright p {
     font-size: var(--font-size-s);
+    margin-bottom: 1rem;
 }
 
 .row {
@@ -150,17 +151,17 @@ form input {
 
     nav ul {
         width: 100%;
-        background-color: var(--black);
+        background-color: rgba(0, 0, 0, 0.75);
         position: absolute;
-        top: 4.5rem;
+        top: 5rem;
         right: 0;
         z-index: 2;
     }
 
     nav ul li {
         display: block;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
     }
 
@@ -175,5 +176,19 @@ form input {
     #menuList {
         overflow: hidden;
         transition: 0.5s;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 0rem 0;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .col-1 {
+        flex-basis: 100%;
     }
 }
