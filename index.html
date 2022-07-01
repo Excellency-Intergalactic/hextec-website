@@ -11,11 +11,12 @@
             <div class="navbar">
                 <img src="assets/hextec-logo.svg" alt="logo" class="logo">
                 <nav>
-                    <ul>
+                    <ul id="menuList">
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="projecta.html">PROJECT A</a></li>
                     </ul>
                 </nav>
+                <img src="assets/menu.svg" alt="menu" class="menu-icon" onclick="togglemenu()">
             </div>
             <div class="hero">
                 <h1>We Shape<br>The Future</h1>
@@ -29,5 +30,17 @@
                 <p>© 2022 Hextec. All rights reserved.</p>
             </div>
         </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px"){
+                    menuList.style.maxHeight = "4rem";
+                }
+                else {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
     </body>
 </html>
